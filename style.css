@@ -288,9 +288,7 @@ textarea {
 }
 
 .site-content {
-    font-size: 1.25em;
-    line-height: 1.6em;
-    background-color: #f4f4e3;
+    background: rgba(244, 244, 227, 0.75);
     height: 100%;
     min-height: 765px;
 }
@@ -751,7 +749,7 @@ a:active {
 
 .main-navigation {
     top: 200px;
-    background-color: #155944;
+    background: rgba(21, 89, 68, 0.9);
     padding: 10px;
     height: 40px;
     padding-left: 80px;
@@ -957,6 +955,10 @@ a:active {
 --------------------------------------------------------------*/
 .header-image {
     background-color:#f4f4e3;
+    filter: alpha(opacity=75);/* internet explorer */
+    -khtml-opacity: 0.75;     /* khtml, old safari */
+    -moz-opacity: 0.75;      /* mozilla, netscape */
+    opacity: 0.75;          /* fx, safari, opera */
 }
 .header-image, img {
     width: 100%;
@@ -966,7 +968,7 @@ a:active {
 
 
 .logo {
-    background-color: #094924;
+    background: rgba(9, 73, 36, 0.9);
     height: 90px;
     top:110px;
     margin-left: auto;
@@ -1067,13 +1069,12 @@ a:active {
 .widget-area {
     float: right;
     position: relative;
-    right: 0px;
-    bottom: 0px;
-    background-color: #155944;
-    display: inline-block;
+    right: 100px;
+    background: rgba(21, 89, 68, 0.9);
     padding-bottom: 0px;
     width: 24%;
     top: 165px;
+    height: 350px;
     }
 
 @media screen and (max-device-width: 480px) {
@@ -1281,7 +1282,7 @@ h1, .entry-title {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-	background-color: #094924;
+	background: rgba(9, 73, 36, 0.9);
 	padding: 20px;
     position: static;
     left: 0;
