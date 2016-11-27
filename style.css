@@ -289,8 +289,9 @@ textarea {
 
 .site-content {
     background: rgba(244, 244, 227, 0.75);
-    height: 100%;
-    min-height: 765px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 h1,
@@ -312,6 +313,10 @@ h6 {
     margin: 6em auto;
     margin-left: 75px;
     margin-bottom: 0;
+}
+
+artical a:visited {
+    color:black;  
 }
 
 @media screen and (min-width:40em) {
@@ -654,9 +659,15 @@ a:active {
 }
 
 .custom-logo-link {
-    position: absolute;
-    top: 20px;
-    right: 30px;
+    position: relative;
+    top: -55px;
+    right: 20px;
+    float: right;
+    padding: 0px;
+}
+
+.custom-logo-link img {
+    border: none;
 }
 
 /*--------------------------------------------------------------
@@ -672,6 +683,15 @@ a:active {
     padding: 5px;
 }
 
+.menu-item a img {
+    border: none;
+    box-shadow: none;
+    vertical-align: middle;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 3px !important;
+}
+
 .sub-menu .menu-item {
     padding: 5px;
 }
@@ -681,10 +701,8 @@ a:active {
 }
 
 .secondary_class {
-    position: absolute;
     width: 100%;
     left: 0px;
-    text-indent: 9px;
     padding: 5px;
     top: 5px;
 }
@@ -695,8 +713,8 @@ a:active {
 }
 
 .secondary_class .menu-image-title {
-    position: absolute;
-    top: 30px;
+    padding: 0;
+    margin: 10px;
 }
 
 #menu-upper-menu {
@@ -707,52 +725,15 @@ a:active {
     position: absolute;
 }
 
-.calendar-nav {
-    background-image: url('images/calendar.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 100px;
-    padding-top: 20px;
-    height: 50px;
-    background-size: 50px;
-}
-
-.newsletter {
-    background-image: url('images/newsletter.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 100px;
-    padding-top: 20px;
-    height: 50px;
-    background-size: 50px;
-}
-
-.donate {
-    background-image: url('images/donate.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 100px;
-    padding-top: 20px;
-    height: 50px;
-    background-size: 50px;
-}
-
-.membership {
-    background-image: url('images/membership.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    padding-left: 100px;
-    padding-top: 20px;
-    height: 50px;
-    background-size: 50px;
-}
-
 .main-navigation {
     top: 200px;
     background: rgba(21, 89, 68, 0.9);
     padding: 10px;
     height: 40px;
     padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
 }
 
 .main-navigation ul {
@@ -959,8 +940,9 @@ a:active {
     -khtml-opacity: 0.75;     /* khtml, old safari */
     -moz-opacity: 0.75;      /* mozilla, netscape */
     opacity: 0.75;          /* fx, safari, opera */
+    height: 100px;
 }
-.header-image, img {
+.header-image img {
     width: 100%;
     border: 0px;
     height: 100px;
@@ -976,14 +958,14 @@ a:active {
 }
 .site-header{
     background-color: #f6f5e4;
-    height: 130px;
+    height: 90px;
 }
 
 .site-logo {
     position: relative;
     padding: 0px;
     right: 20px;
-    top: -20px;
+    top: -50%;
     float: right;
 }
 
@@ -1123,6 +1105,9 @@ a:active {
 
 .hentry {
 	margin: 0 0 1.5em;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
 }
 
 .byline,
@@ -1287,8 +1272,10 @@ h1, .entry-title {
     position: static;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 85%;
     clear: both;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .site-info {
