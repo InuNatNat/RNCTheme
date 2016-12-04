@@ -327,7 +327,8 @@ artical a:visited {
 
 @media screen and (min-width:30em){
     .site-main{
-        margin: 6em auto;
+        margin: 1em auto;
+        padding: 30px;
     }
 }
 
@@ -1050,13 +1051,13 @@ a:active {
 
 .widget-area {
     float: right;
-    position: relative;
-    right: 100px;
+    margin-right: 100px;
     background: rgba(21, 89, 68, 0.9);
     padding-bottom: 0px;
     width: 24%;
-    top: 165px;
-    height: 350px;
+    margin-top: 83px;
+    margin-bottom: 25px;
+    margin-left: 25px;
     }
 
 @media screen and (max-device-width: 480px) {
@@ -1106,7 +1107,6 @@ a:active {
 .hentry {
 	margin: 0 0 1.5em;
     display: inline-block;
-    width: 300px;
     padding: 10px;
 }
 
@@ -1391,13 +1391,118 @@ object {
 --------------------------------------------------------------*/
 
 @media screen and (max-width : 782px) {
-    #menu-upper-menu {
-        display: none !important;
+     #menu-upper-menu {
+        color: aquamarine;
+    }
+    .site-header {
+        height: 150px !important;
+        background-color: aqua;
     }
     .widget-area {
         display: none;
     }
     .site-title {
         display: none;
+    }
+    .custom-logo-link {
+        top: 10px;
+        float: left;
+        right: 0px;
+        left: 75px;
+    }
+    .header-image {
+        height: 50px;
+    }
+    .header-image img {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    .widget-area {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 599px) {
+    .widget-area {
+        display: none;
+    }
+    .site-title {
+        display: none;
+    }
+    .custom-logo-link {
+        top: 10px;
+        float: left;
+        right: 0px;
+        left: 45px;
+    }
+    .header-image {
+        height: 50px;
+    }
+    .header-image img {
+        height: 50px;
+    }
+    p {
+        font-size: 1.3em;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .site {
+        width: 100%;
+    }
+    .site-content {
+        width: 100%;
+    }
+    .site-footer {
+        width: 100%;
+    }
+    .site-main {
+        margin: 2em auto;
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width : 385px) {
+    .widget-area {
+        display: none;
+    }
+    .site-title {
+        display: none;
+    }
+    .custom-logo-link {
+        top: 10px;
+        float: left;
+        right: 0px;
+        left: 45px;
+    }
+    .header-image {
+        height: 50px;
+    }
+    .header-image img {
+        height: 50px;
+    }
+    p {
+        font-size: 1.3em;
+    }
+    .main-navigation {
+        display: none;
+    }
+    .site {
+        width: 100%;
+    }
+    .site-content {
+        width: 100%;
+    }
+    .site-footer {
+        width: 100%;
+    }
+    .site-main {
+        margin: 2em auto;
+        margin-left: 25px;
+    }
+    .custom-logo-link img {
+        width: 85%;
     }
 }
